@@ -1,24 +1,23 @@
 
 
 
-.container0 {
-    display: inline-block;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: #1f2937;
-}
-
 .container {
     display: inline-block;
     flex-wrap: wrap;
     width: 100%;
     background-color: #1f2937;  
+    margin: -2px;
 }
-
+.container1 {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #1f2937;  
+    margin: -2px;
+}
 
 .one {
     font-size: 16px;
-    float: left;
     padding: 6px;
 }
 
@@ -31,6 +30,11 @@
     float: right;
     padding: 6px;
 }
+.four {
+    float:right;
+    padding: 6px;
+}
+
 button {
     color: rgb(244, 244, 248);
     background-color: rgb(29, 98, 202);
@@ -38,18 +42,23 @@ button {
 
 .image img {
     float: right;
-    max-width: 40%;
-    padding: 20px;
+    max-width: 35%;
+    padding: 25px;
+}
+
+.signup {
+    padding: 10px;
 }
 
 
 .columns {
    columns: 4;
+   align-self:center;
+   padding: 65px;
 }
 
 .image2 img {
-    max-width: 40px;
-    align-items:flex-end;
+    max-width: 50px;  
 }
 
 header {
@@ -60,13 +69,16 @@ header {
 }
 
 .text {
-    font-size: 20px;
+    font-size: 48px;
+    font-weight: extra-bold;
+    
 }
 h1 {
-    color: red;
+    color: #f9faf8;
 }
 h2 {
-    color: blue;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .texth2 {
@@ -84,14 +96,36 @@ figcaption {
     font-size: 15px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 90px
+}
+
+.action {
+    font-size: 18px;
+    background-color: #3882f6;
+    padding: 20px;
+    margin: 4em;   
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align:center;
+}
 
 
 .footer {
-    background-color: #1f2937;
-    padding: 20px;
-    font-size: 10px;
+    background-color: #1d2735;
+    padding: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #e5e7eb;
 }
 
 html{
-    background-color: rgb(219, 243, 170)
+    background-color: white;
 }
